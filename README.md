@@ -3,7 +3,7 @@
 
 [logo]: https://github.com/Kink3d/SimpleTraffic/blob/master/Screenshots/Demo.gif "Demo Scene"
 
-A simple traffic simulation using Nav Mesh.
+A simple traffic simulation using Nav Mesh. Constrains NavMeshAgents within lanes between custom navigation sections. All traffic moves continuously between randomly selected destinations.
 
 Road Vehicle Traffic:
 - Modular road section based randomized navigation
@@ -23,6 +23,10 @@ Junctions:
 - T Junction
 - Train Crossing
 - Pedestrian crossing
+
+Debug
+- Junction logic gizmos
+- Vehicle traffic destination gizmos
 
 Contains:
 - Simple traffic navigation logic
