@@ -18,7 +18,11 @@ Train Traffic:
 - Continuous navigation
 - Junction crossing logic
 
-Junctions
+Junctions:
+- Crossroad
+- T Junction
+- Train Crossing
+- Pedestrian crossing
 
 Contains:
 - Simple traffic navigation logic
