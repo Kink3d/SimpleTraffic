@@ -45,7 +45,8 @@ namespace Kawaiiju.Traffic
 		private void SpawnCarriage(NavSection navSection, NavConnection destination, int carriage)
 		{
 			Vector3 pos = transform.TransformPoint(0, 0, -carriage * 1.05f);
-			Train newCarriage = Instantiate(TrafficSystem.Instance.trainCarriagePrefab, pos, transform.rotation).GetComponent<Train>();
+			Train newCarriage = Instantiate(TrafficSystem.Instance.trainCarriagePrefab, pos, transform.rotation, transform).GetComponent<Train>();
+            newCarriage.transform.localScale = Vector3.one;
 			newCarriage.InitializeCarriage(navSection, destination, this, carriage, carriageCount);
 		}
 
