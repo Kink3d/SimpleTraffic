@@ -5,6 +5,8 @@
 
 A simple traffic simulation using Nav Mesh. Constrains NavMeshAgents within lanes between custom navigation sections. All traffic moves continuously between randomly selected destinations.
 
+*Requires Unity 2017.2+.*
+
 Road Vehicle Traffic:
 - Modular road section based randomized navigation
 - Junction logic
