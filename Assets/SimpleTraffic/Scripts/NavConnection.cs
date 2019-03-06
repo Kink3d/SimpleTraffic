@@ -37,7 +37,7 @@ namespace Kawaiiju.Traffic
 
 		private void OnDrawGizmos()
 		{
-			if(TrafficSystem.Instance.drawGizmos)
+			if(TrafficSystem.Instance != null && TrafficSystem.Instance.drawGizmos)
 			{
 				Gizmos.color = Color.white;
 				Gizmos.DrawSphere(transform.position - new Vector3(0, transform.localScale.y * 0.5f, 0), 0.05f);
