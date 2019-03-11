@@ -101,6 +101,9 @@ namespace  Kawaiiju.Traffic
 
 		private void SpawnTrain(bool reset)
 		{
+			if (m_Tracks.Count < 1) {
+			    return;
+			}
 			if(reset)
 				m_TrainSpawnAttempts = 0;
 			int index = UnityEngine.Random.Range(0, m_Tracks.Count);
