@@ -5,5 +5,6 @@
     "unity": "2019.1",
     "displayName": "kTraffic",
     "dependencies": {
-    }
+		"com.kink3d.splines": "0.1.0"
+  }
 }

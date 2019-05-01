@@ -1,5 +1,6 @@
 {
   "dependencies": {
+	"com.kink3d.splines": "file:../../../../kSplines/com.kink3d.splines",
 	"com.kink3d.traffic": "file:../../../com.kink3d.traffic",
     "com.unity.package-manager-ui": "2.1.2",
     "com.unity.modules.ai": "1.0.0",

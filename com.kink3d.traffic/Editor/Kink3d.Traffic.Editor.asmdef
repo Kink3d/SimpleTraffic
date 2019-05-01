@@ -1,7 +1,7 @@
 {
     "name": "Kink3d.Traffic.Editor",
     "references": [
-        "Kink3d.Traffic.Runtime"
+        "Kink3d.Splines.Traffic"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [
